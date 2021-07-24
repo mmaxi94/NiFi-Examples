@@ -7,4 +7,5 @@ El objetivo del flujo es leer todos los registros de un indice de ElasticSearch 
 
 
 ## MongoDB to Postgres & Postgres to MongoDB
-El objetivo del flujo es obtener los datos provenientes de una base MongoDB, cargar los registros en una basa de datos relacional como Postgres y luego, transformar la informacion insertada en la tabla con el fin de convertirla nuevamente en el mismo formato del JSON original e insertarla en una nueva coleccion en MongoDB.
+El objetivo del flujo es obtener los datos provenientes de una base MongoDB, cargar los registros en una base de datos relacional como Postgres y luego, transformar la informacion insertada en la tabla con el fin de convertirla nuevamente en el mismo formato del JSON original e insertarla en una nueva coleccion en MongoDB.
+Para la carga inicial de la coleccion "students" de MongoDB, se utilizó el file "students.json" que, a fines practicos, se cargó manualmente a traves de Robo3T.
